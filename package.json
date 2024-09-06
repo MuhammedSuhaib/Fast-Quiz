@@ -1,0 +1,28 @@
+{
+  "name": "@muhammed_suhaib/cli_fast_quiz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": "index.js",
+  "publishConfig": {
+    "access": "public"
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.7.0",
+    "inquirer": "^9.2.10"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.3",
+    "@types/figlet": "^1.5.8",
+    "@types/inquirer": "^9.0.3"
+  }
+}
